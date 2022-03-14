@@ -60,5 +60,19 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/health-checks-jx/values.yaml.gotmpl
   - jx-values.yaml
+- chart: jx3/jxboot-helmfile-resources
+  version: 1.0.63
+  name: jxboot-helmfile-resources
+  values:
+  - ../../versionStream/charts/jx3/jxboot-helmfile-resources/values.yaml.gotmpl
+  - jx-values.yaml
+  - jxboot-helmfile-values.yaml
+- chart: jx3/jx-pipelines-visualizer
+  version: 1.7.1
+  name: jx-pipelines-visualizer
+  values:
+  - ../../versionStream/charts/jx3/jx-pipelines-visualizer/values.yaml.gotmpl
+  - jx-values.yaml
+  - jx-pipelines-visualizer-values.yaml
 templates: {}
 renderedvalues: {}
